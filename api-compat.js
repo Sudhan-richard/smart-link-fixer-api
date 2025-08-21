@@ -279,5 +279,5 @@ app.post('/check', async (req, res) => {
   res.json(results);
 });
 
-const port = process.env.PORT || 10000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`✅ API running at http://localhost:${port}`));
