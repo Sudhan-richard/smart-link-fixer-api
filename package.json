@@ -1,0 +1,15 @@
+{
+  "name": "smart-link-fixer-api",
+  "version": "1.0.0",
+  "main": "api-compat.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node api-compat.js",
+    "postinstall": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "playwright": "^1.46.0"
+  }
+}
